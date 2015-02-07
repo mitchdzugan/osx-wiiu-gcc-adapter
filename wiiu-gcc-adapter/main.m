@@ -91,10 +91,7 @@
                     [[[Gcc alloc] init] setup:2],
                     [[[Gcc alloc] init] setup:3]];
     
-    [[[NSThread alloc] initWithTarget:self selector:@selector(poll) object:nil] start];
-    while(true) {
-        [NSThread sleepForTimeInterval:50.0f];
-    }
+    [self poll];
 }
 
 - (void)poll {
@@ -107,7 +104,9 @@
     {
         data[38] = 0;
         unsigned char * p = data + 1;
-        libusb_bulk_transfer(dev_handle, (129 | LIBUSB_ENDPOINT_IN), data, 37, &actual, 0);
+        if (0 != libusb_bulk_transfer(dev_handle, (129 | LIBUSB_ENDPOINT_IN), data, 37, &actual, 0)) {
+            return;
+        }
         
         if (actual == 37 && data[0] == 33) {
             for (int i=0; i<4; i++) {
@@ -171,7 +170,6 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code	 here...
         [[[GccManager alloc] init] setup];    }
     return 0;
 }

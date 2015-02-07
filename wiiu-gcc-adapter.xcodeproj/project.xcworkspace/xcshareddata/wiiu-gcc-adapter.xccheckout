@@ -10,14 +10,14 @@
 	<string>wiiu-gcc-adapter</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>499964B3401A596CF5B1511FE379E2329EB44609</key>
+		<key>FCEFA87B2E6F43C5DDE6278BA36F307D743A8C8C</key>
 		<string>https://github.com/mitchdzugan/osx-wiiu-gcc-adapter.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>wiiu-gcc-adapter.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>499964B3401A596CF5B1511FE379E2329EB44609</key>
+		<key>FCEFA87B2E6F43C5DDE6278BA36F307D743A8C8C</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>499964B3401A596CF5B1511FE379E2329EB44609</string>
+	<string>FCEFA87B2E6F43C5DDE6278BA36F307D743A8C8C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>499964B3401A596CF5B1511FE379E2329EB44609</string>
+			<string>FCEFA87B2E6F43C5DDE6278BA36F307D743A8C8C</string>
 			<key>IDESourceControlWCCName</key>
 			<string>wiiu-gcc-adapter</string>
 		</dict>
