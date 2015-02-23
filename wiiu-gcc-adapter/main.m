@@ -2,9 +2,6 @@
 //  main.m
 //  wiiu-gcc-adapter
 //
-//  Created by Mitch Dzugan on 1/29/15.
-//  Copyright (c) 2015 Mitch Dzugan. All rights reserved.
-//
 
 #import <Foundation/Foundation.h>
 #import "libusb.h"
