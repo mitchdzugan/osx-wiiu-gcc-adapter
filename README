@@ -1,3 +1,5 @@
+I currently don't have an osx machine so I don't have time to maintain this. Would highly recommend using this fork (https://github.com/area/osx-wiiu-gcc-adapter) instead which appears to be superior in every way anyways.
+
 How to use:
 
 1. Make sure you have xcode installed. You can get it for free via the app store.
